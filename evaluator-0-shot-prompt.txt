@@ -8,20 +8,3 @@ Evaluate each MCQ independently based on the following criteria:
 4.  **Correctness Verification (Score 1-5):** Based on standard Python 3 behavior and common loop knowledge, is the option marked as `correct_option` actually the correct answer? (1=Definitely Incorrect, 3=Unsure/Ambiguous based on standard knowledge, 5=Definitely Correct).
 
 You MUST output your evaluation ONLY in the following JSON format. Do not include ANY introductory text, concluding remarks, or explanations outside of the JSON structure. The output must be a valid JSON object containing a list under the key `evaluation_results`.
-
-{
-  "evaluation_results": [
-    {
-      "question_evaluated": "(Paste the exact 'question_text' of the MCQ here)",
-      "evaluation": {
-        "topic_coverage_relevance_score": <integer_1_to_5>,
-        "question_quality_clarity_score": <integer_1_to_5>,
-        "answer_quality_distractors_score": <integer_1_to_5>,
-        "correctness_verification_score": <integer_1_to_5>,
-        "brief_comment": "Provide a concise (1-2 sentence) justification for your scores, highlighting strengths/weaknesses based ONLY on the defined criteria."
-      }
-    },
-    // ... one entry for each question evaluated
-  ],
-  "overall_topic_coverage_comment": "Provide a 1-2 sentence overall assessment of how well the *set* of questions covers the expected range of Python loop topics."
-}

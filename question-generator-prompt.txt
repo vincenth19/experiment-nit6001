@@ -12,6 +12,4 @@ Focus on generating questions that test understanding of the underlying concepts
 Each question must have 4 options (A, B, C, D), with one clearly correct answer AND three plausible but incorrect distractors based on common misunderstandings or slight variations presented in the text/examples.
 Mark the correct answer using the 'correct_option' key.
 
-Always output ONLY the questions in the specified JSON format:
-[ { "question_text": "...", "options": {"A":"...","B":"...","C":"...","D":"..."}, "correct_option": "..." }, ... ]
 Do not include any introductory text or explanations before or after the JSON output.
