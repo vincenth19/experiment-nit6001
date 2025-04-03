@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question_text": "A while loop continues to execute its block of code as long as what condition is met?",
+      "options": {
+        "A": "The loop counter is greater than zero.",
+        "B": "The loop expression evaluates to True.",
+        "C": "The loop expression evaluates to False.",
+        "D": "The break statement is not encountered."
+      },
+      "correct_option": "B"
+    },
+    {
+      "question_text": "What is the immediate effect of a continue statement within a loop?",
+      "options": {
+        "A": "The loop terminates entirely.",
+        "B": "The current iteration is skipped, and execution jumps to the next iteration's loop expression evaluation.",
+        "C": "The program terminates.",
+        "D": "The loop restarts from the beginning."
+      },
+      "correct_option": "B"
+    },
+    {
+      "question_text": "In a nested loop, which loop controls the number of times the inner loop executes fully?",
+      "options": {
+        "A": "The inner loop.",
+        "B": "The outer loop.",
+        "C": "Both loops execute an equal number of times.",
+        "D": "The loop with the break statement."
+      },
+      "correct_option": "B"
+    },
+    {
+      "question_text": "Under what circumstance will the else block associated with a loop (i.e., loop else) NOT be executed?",
+      "options": {
+        "A": "When the loop completes all iterations.",
+        "B": "When a continue statement is executed within the loop.",
+        "C": "When a break statement is executed within the loop.",
+        "D": "The else block will always execute."
+      },
+      "correct_option": "C"
+    },
+    {
+      "question_text": "Given the code: i = 1; while i < 5: print(i); i += 1; else: print(\"Loop finished!\"), what will be printed after the numbers 1, 2, 3, and 4?",
+      "options": {
+        "A": "Nothing.",
+        "B": "Loop finished!",
+        "C": "5",
+        "D": "An error message."
+      },
+      "correct_option": "B"
+    }
+  ]
+}
